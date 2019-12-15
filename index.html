@@ -1,6 +1,7 @@
 <html class="gr__cs_ucy_ac_cy"><head>
     <meta charset="UTF-8">
     <meta name="keywords" content="άννα παναγιώτου,Άννα Παναγιώτου-Tριανταφυλλοπούλου,ucy,πκ">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <link rel="stylesheet" href="style/annapanayotoustyle.css">
     <title>Άννα Παναγιώτου: Αρχική Σελίδα</title>
     <style>
@@ -20,26 +21,14 @@
         <h2 style="color: #002BFF;">Άννα Παναγιώτου-Tριανταφυλλοπούλου</h2>
         <em style="color: #0B6121"> Kαθηγήτρια της Γλωσσολογίας<br>Tμήμα Kλασικών Σπουδών και Φιλοσοφίας<br>Φιλοσοφική Σχολή του Πανεπιστημίου Kύπρου</em>
     </hgroup>
-   	 <nav id="menu">
-        <ul>
-            <li><a href="index.html" title="Αρχικη">Αρχικη</a>
-            </li>
-           <li class="has-sub"><a href="#" title="Eρευνα">ερευνα</a>
-                <ul>
-					<li><a href="gr/publications.html">Λιστα Δημοσιευσεων</a></li>
-                    <li><a href="#">Αναφορες</a></li>
-                    <li><a href="#">Εργα</a></li>
-                </ul>
-            </li>
-			<li class="has-sub"><a href="#" title="Μαθηματα">Μαθηματα</a>
-				<ul>
-                    <li><a href="gr/courses.html" title="ΜαθήματαΠΚ">Πανεπιστημιο Κυπρου</a>
-					<li><a href="gr/otherCourses.html" title="ΜαθήματαΕκτοςΠΚ">Εκτος Πανεπιστημιου Κυπρου</a>
-					<li><a href="gr/coursesAbroad.html" title="ΜαθήματαΣτοΕξωτερικό">ΠΑΝΕΠΙΣΤΗΜΙΑ ΤΟΥ ΕΞΩΤΕΡΙΚΟΥ</a>
-                </ul>
-            </li>          
-        </ul>
-    </nav>
+	
+   	<nav id="menu"/>
+	<script>
+	$(function(){
+	$("#menu").load("gr/grnavbar.html");
+	});
+	</script>
+    
 </header>
 
 <article class="body">
