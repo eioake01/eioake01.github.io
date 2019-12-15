@@ -1,5 +1,6 @@
 <html class="gr__cs_ucy_ac_cy"><head>
 <meta charset="UTF-8">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <link rel="stylesheet" href="../../style/annapanayotoustyle.css">
 <title>Άννα Παναγιώτου: Αρχική Σελίδα</title>
 </head>
@@ -12,29 +13,12 @@
 			<h2 style="color: #002BFF;">Άννα Παναγιώτου-Tριανταφυλλοπούλου</h2>
 			<em style="color: #0B6121"> Kαθηγήτρια της Γλωσσολογίας</em>
 		</hgroup>
-		 <nav id="menu">
-        <ul>
-            <li><a href="../../index.html" title="Αρχικη">Αρχικη</a>
-            </li>
-            <li class="has-sub"><a href="#" title="Eρευνα">ερευνα</a>
-                <ul>
-                    <li><a href="publications.html" title="Publications">Επιλεγμενες Δημοσιευσεις</a>
-                    </li><li><a href="http://grid.ucy.ac.cy/index.php/publication" target="_blank">Λιστα Δημοσιευσεων</a>
-                    </li>
-                    <li><a href="http://scholar.google.com/citations?hl=en&amp;user=7XOY290AAAAJ" target="_blank">Αναφορες</a>
-                    </li>
-                    <li><a href="http://grid.ucy.ac.cy/index.php/projects" target="_blank">Εργα</a>
-                    </li>
-                </ul>
-            </li><li><a href="../courses.html" title="Μαθηματα">Μαθηματα</a></li>
-            <li><a href="talks.html" title="Μαθηματα">Ομιλιες</a>
-            </li>
-            <li><a href="students.html" title="Advising">Advising</a>
-            </li>
-            <li><a href="service.html" title="Service">Service</a>
-            </li>
-        </ul>
-    </nav>
+		 	<nav id="menu"/>
+	<script>
+	$(function(){
+	$("#menu").load("/gr/grnavbar.html");
+	});
+	</script>
 	</header>
 
 	<article class="body">
