@@ -52,7 +52,7 @@ h2.pgSubTitle, h3.pgSubTitle, h4.pgSubTitle {
 	width: 60em;
 	margin: auto;
 	padding: 0;
-	min-width: 60em;
+	min-width: 30em;
 }
 
 #menu>ul>li {
