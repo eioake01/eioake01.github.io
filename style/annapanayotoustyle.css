@@ -49,10 +49,8 @@ h2.pgSubTitle, h3.pgSubTitle, h4.pgSubTitle {
 
 #menu>ul {
 	list-style: inside none;
-	width: 500em;
-	margin: auto;
+	margin: 0;
 	padding: 0;
-	min-width: 50em;
 }
 
 #menu>ul>li {
