@@ -38,29 +38,32 @@ h2.pgSubTitle, h3.pgSubTitle, h4.pgSubTitle {
 
 
 #menu {
+	
+	position: absolute;
+    left: 0px;
+    width: 100%;
 	clear: both;
 	height: 2em;
 	padding:0;
 	margin: 0 auto;
 	margin-top: 20px;
 	background:  #002BFF; 
-	text-align: center;
 }
 
 #menu>ul {
-	list-style: inside none;
 	margin: 0;
-	padding: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
 }
 
 #menu>ul>li {
+	margin: 0;
 	position: relative;
 	display: block; /* this approach makes it work with Firefox */
 	float: left; /* instead of display: inline */
 	list-style: inside none;
 	padding: 0;
-	margin-right: 1.2em;
-	margin-top: 0.3em;
 	font-family: Verdana, Helvetica, Arial, sans-serif;
 	color: #FFF;
 	text-transform: uppercase;
