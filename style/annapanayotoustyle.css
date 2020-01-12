@@ -38,13 +38,11 @@ h2.pgSubTitle, h3.pgSubTitle, h4.pgSubTitle {
 
 
 #menu {
-	
-	position: absolute;
-    left: 0px;
-    width: 100%;
+
 	clear: both;
 	height: 2em;
 	padding:0;
+	position: absolute;
 	margin: 0 auto;
 	margin-top: 20px;
 	background:  #002BFF; 
@@ -52,18 +50,11 @@ h2.pgSubTitle, h3.pgSubTitle, h4.pgSubTitle {
 }
 
 #menu>ul {
-	
-	 margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: center;
 	list-style: inside none;
+	width: 55em;
 	margin: auto;
 	padding: 0;
-	width: 500em;
-	margin: auto;
-	padding: 0;
-	min-width: 50em;
+	min-width: 30em;
 }
 
 #menu>ul>li {
