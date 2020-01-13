@@ -178,6 +178,9 @@ article#introBio {
 }
 
 
+address{
+	font-style: normal;
+}
 div#contact {
 	display:block;
 	margin: 0 auto;
@@ -185,10 +188,6 @@ div#contact {
 	margin-top: 1em;
 }
 
-#footerQRCode {
-	float: left;
-	width: 20%;
-}
 
 #footerAddr1 {
 	float: left;
